@@ -1,0 +1,17 @@
+.button1{
+    color: red;
+    background-color: black;
+    
+}
+
+#button2{
+    color: black;
+    background-color: red;
+
+}
+
+#input{
+    border: none;
+    width: 200px;
+    border-radius: 200px;
+}

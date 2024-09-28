@@ -1,0 +1,14 @@
+body{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.container{
+    border: 1px solid aqua; 
+    height: 40px;
+    width: 40px;
+    border-radius: 100px 100px 40px 90px 70px;
+
+}
