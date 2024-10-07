@@ -2,6 +2,6 @@ def count_words(text):
     words = text.split()
     return len(words)
 
-text =input("შეიყვანეთ ტექსტი: ")
+text =input("დაწერე კოდი: ")
 
-print("სიტყვების რაოდენობა:", count_words(text))
+print("ჩაწერე რიცხვი:", count_words(text))

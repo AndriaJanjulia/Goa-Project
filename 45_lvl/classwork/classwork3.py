@@ -1,8 +1,8 @@
 def search(text,word):
     if word in text:
-        return "Word found"
+        return "სიტყვა მოიძებნა"
     else:
-        return "Word not found"
+        return "სიტყვა არ მოიძებნა"
 
 
 
