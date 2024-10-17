@@ -1,0 +1,21 @@
+div{
+    text-align: center;
+}
+
+input[type=text]{
+    background-color: whitesmoke;
+    text-align: center;
+}
+input[type=Password]{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+body{
+    background-color: aquamarine;
+    padding: 100px;
+}
+input[type=Button]{
+    background-color: black;
+    
+}
