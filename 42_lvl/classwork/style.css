@@ -1,0 +1,15 @@
+div{
+    width: 500px;
+    height: 450px;
+    background-color: chartreuse;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+
+    
+    border-width: 15px;
+    border-style: dashed;
+    border-color: crimson;
+
+}
