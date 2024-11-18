@@ -1,4 +1,6 @@
-def welcome():
-    print("Welcome,user")
+def say_hi_user(name):
+    print('Hello Dear ' + name)
 
-welcome()
+name = input('Enter your name: ')
+say_hi_user(name)
+
