@@ -1,11 +1,9 @@
-.parent {
-    width: 450px;
-    height: 400px;
-    background-color: skyblue;
-   
+table{
+    background-color: #25bbb1;
+    margin-left: 700px;
+    width: 100px;
+    height: 100px;
 }
-
-.children{
-     padding: 50px;
-     background-color: red;
+h1{
+    text-align: center;
 }
