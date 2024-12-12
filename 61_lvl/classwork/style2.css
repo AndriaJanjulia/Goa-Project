@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+:root{
+    --color: white;
+    --default-size: 2.0em;
+    --heading-font: cursive;
+    --p-font: monospace;
+    --heading-3-font: Roboto;
+    --text-position: center;
+    --height: 600px
+}
+
+div{
+    width: 500px;
+    height: var(--height);
+    background-color: chocolate;
+
+
+
+    color: var(--color);
+    font-size: var(--default-size);
+    font-family: var(--heading-3-font);
+    font-family: var(--text-position);
+
+}
+    

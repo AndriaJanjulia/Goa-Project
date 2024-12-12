@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 4px solid red;
+    transition: 1s;
+}
+
+.div1:hover{
+    transform: rotate(200deg);
+    background-color: aqua;
+
+}
+
+
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 4px solid burlywood;
+    transition: 1s;
+    margin: 100px;
+
+}
+
+.div2:hover{
+    width: 250px;
+    height: 250px;
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border: 4px solid red;
+    transition: transform, 1s, ease-in-out, blackground-color, 1s ;
+
+}
+
+.div3:hover{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    letter-spacing: 10px;
+    color: seagreen;
+}
