@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: darkcyan;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.list{
+    text-align: left;
+    margin-left: 400px;
+}

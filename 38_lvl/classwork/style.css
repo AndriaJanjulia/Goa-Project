@@ -1,0 +1,56 @@
+h1{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.h2{
+    font-family: sans-serif;
+    
+} 
+
+.h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h4{
+     font-family: fantasy;
+}
+
+.h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.h7{
+    font-family: serif;
+    font-style: italic;
+}
+
+
+.h8{
+    font-family: 'Courier New', Courier;
+    font-style: normal;
+}
+
+.h9{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h10{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.h11{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h12{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
