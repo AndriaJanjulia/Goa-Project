@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: black;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.container2{
+    text-align: center;
+    justify-content: center;
+}
+
+.containers{
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: red
+}
+
+header nav ul {
+    padding: 0;
+    margin: 10px 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    text-align: center;
+    color: #ff0000;
+}
+
+.profile-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    border: 10px solid black;
+    
+}
+
+.Skills{
+    color: red;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.about-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #0078D4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-content p {
+    flex: 1;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+
+
+
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content img {
+        margin: 0 auto;
+    }
+
+    .about-content p {
+        text-align: center;
+    }
+   .project {
+       padding: 15px;
+   }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    .social-links img {
+        width: 30px;
+        height: 30px;
+    }
+}
